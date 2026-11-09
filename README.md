@@ -225,6 +225,9 @@ Adicione aqui os prints do sistema (de preferência hospedados no repositório, 
 | **Cadastro** | **Catálogo de Veículos** |
   <img width="1872" height="1016" alt="image" src="https://github.com/user-attachments/assets/d99d2481-e5c4-4e84-a4ce-e20b97c2e7f3" />
 
+  <img width="1847" height="951" alt="image" src="https://github.com/user-attachments/assets/4c9a2ba8-c6ad-49bb-87c3-01f522b99c76" />
+
+
 | **Pedidos (cliente)** | **Pedidos (agente)** |
   <img width="1885" height="1018" alt="image" src="https://github.com/user-attachments/assets/da127954-72b1-4e93-b4b2-00364adace52" />
 
