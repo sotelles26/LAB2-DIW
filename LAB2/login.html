@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>LAB2</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <!--Topo da pagina-->
+        <div class="topo">
+            <header>
+                <div class="menu">
+                    <nav>
+                        <div class="logo">
+                            <img src="logo-escura.png"/>
+                        </div>
+                        <ul class="ul">
+                            <li><a href="index.html" class="ativa">Início</a></li>
+                            <li><a href="veiculos.html">Veículos</a></li>
+                            <li><a href="pedidos.html">Pedidos</a></li>
+                        </ul>  
+                        <button type="button" class="btn-tema" id="btn-tema">
+                            <img src="Son.png" class="btn-sol" alt="Mudar tema"/>
+                        </button>  
+                        <a href="login.html" class="btn-entrar" id="btn-entrar">
+                            <p>Entrar</p>
+                        </a>
+                        <a href="cadastro.html" class="btn-cadastrar" id="btn-cadastrar">
+                            <p>Cadastrar</p>
+                        </a>
+                    </nav>
+                </div>
+            </header>
+        </div>    
+        <!--PAGINA DE LOGIN-->
+        <div class="login">
+            <h2>LOGIN</h2>
+            <form id="form-login">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="nome@email.com" required>
+                <label for="password">Senha:</label>
+                <input type="password" id="password" name="password" required>
+                <button type="submit" class="btn-login">Entrar</button>
+                <p class="footer-login">Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+            </form>
+        </div>
+        
+        <!-- RODAPÉ --->
+        <footer class="rodape">
+            <div class="container-rodape">
+                <div class="rodape-inferior">
+                    <p><small>&copy; 2026 CARent - Sistema de Locação de Veículos.</small></p>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="site.js"></script>
+    </body>
+</html>

@@ -1,0 +1,116 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "João Silva",
+      "email": "cliente@teste.com",
+      "senha": "123456",
+      "tipo": "cliente",
+      "cpfCnpj": "000.000.000-00",
+      "rg": "00.000.000-0",
+      "profissao": "Engenheiro",
+      "endereco": {
+        "cep": "30000-000",
+        "logradouro": "Rua A",
+        "estado": "MG",
+        "numero": "10",
+        "complemento": "",
+        "bairro": "Centro",
+        "cidade": "Belo Horizonte"
+      },
+      "empregadores": [
+        {
+          "empresa": "Empresa LTDA",
+          "cnpj": "00.000.000/0001-00",
+          "rendimento": 5000
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nome": "Banco Exemplo S.A.",
+      "email": "banco@teste.com",
+      "senha": "123456",
+      "tipo": "banco",
+      "cpfCnpj": "11.111.111/0001-11",
+      "rg": "",
+      "profissao": "",
+      "endereco": {},
+      "empregadores": []
+    },
+    {
+      "id": "3",
+      "nome": "Locadora Exemplo",
+      "email": "locadora@teste.com",
+      "senha": "123456",
+      "tipo": "agente",
+      "cpfCnpj": "22.222.222/0001-22",
+      "rg": "",
+      "profissao": "",
+      "endereco": {},
+      "empregadores": []
+    }
+  ],
+  "automoveis": [
+    {
+      "id": "1",
+      "matricula": "MAT-0001",
+      "ano": 2022,
+      "marca": "Porsche",
+      "modelo": "911 Carrera",
+      "placa": "ABC1D23",
+      "proprietarioId": "3",
+      "proprietarioTipo": "agente",
+      "diaria": 900,
+      "disponivel": false,
+      "imagem": "carro1.jpg"
+    },
+    {
+      "id": "2",
+      "matricula": "MAT-0002",
+      "ano": 2023,
+      "marca": "Toyota",
+      "modelo": "Corolla",
+      "placa": "DEF4G56",
+      "proprietarioId": "2",
+      "proprietarioTipo": "banco",
+      "diaria": 250,
+      "disponivel": true,
+      "imagem": "carro2.jpg"
+    }
+  ],
+  "pedidos": [
+    {
+      "clienteId": "1",
+      "clienteNome": "João Silva",
+      "automovelId": "1",
+      "automovelDescricao": "Porsche 911 Carrera",
+      "dataInicio": "2026-11-09",
+      "dataFim": "2026-11-11",
+      "dias": 2,
+      "valorTotal": 1800,
+      "solicitaCredito": false,
+      "status": "Contratado",
+      "criadoEm": "2026-11-09T00:36:05.421Z",
+      "id": 1,
+      "avaliadoPor": "Locadora Exemplo"
+    }
+  ],
+  "contratos": [
+    {
+      "pedidoId": 1,
+      "clienteId": "1",
+      "clienteNome": "João Silva",
+      "automovelId": "1",
+      "automovelDescricao": "Porsche 911 Carrera",
+      "dataInicio": "2026-11-09",
+      "dataFim": "2026-11-11",
+      "valorTotal": 1800,
+      "agenteId": "3",
+      "agenteNome": "Locadora Exemplo",
+      "creditoBancoId": null,
+      "criadoEm": "2026-11-09T00:55:07.409Z",
+      "id": 1
+    }
+  ]
+}
