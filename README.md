@@ -295,9 +295,7 @@ O projeto não possui testes automatizados. A validação foi feita manualmente 
 
 ## 👥 Autores
 
-| 👤 Nome 
-|---------|----------|-----------------|-------------|-----------|
-| Susana Oliveira e Telles
+ 👤 Nome: Susana Oliveira e Telles
 
 ---
 
