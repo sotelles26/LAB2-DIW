@@ -1,9 +1,7 @@
-<!-- README baseado no template do Prof. Dr. João Paulo Aramuni -->
-🚗 CARent — Sistema de Aluguel de Carros 👨‍💻
 
-[!NOTE] Plataforma web para solicitar, acompanhar e contratar aluguéis de automóveis com análise financeira feita por locadoras e bancos, incluindo crédito associado ao aluguel.
+**🚗 CARent — Sistema de Aluguel de Carros 👨‍💻**
 
-<table> <tr> <td width="800px"> <div align="justify"> O <b>CARent</b> é um sistema de apoio à gestão de aluguéis de automóveis desenvolvido para o <b>Laboratório 02</b> da disciplina de <i>Desenvolvimento de Interfaces Web (DIW)</i>, do curso de Engenharia de Software da PUC Minas. Clientes cadastrados podem <b>criar, modificar, consultar e cancelar pedidos</b> de aluguel, enquanto os agentes (<b>locadoras e bancos</b>) <b>avaliam, modificam e transformam em contrato</b> os pedidos aprovados. O sistema é construído com <b>HTML5, CSS3 e JavaScript</b>, interface em <b>Bootstrap 5</b> e persistência em uma API REST simulada com <b>JSON Server</b>, consumida via <b>Fetch API</b>. </div> </td> <td> <div> <img src="logo-escura.png" alt="Logo do Projeto" width="120px"/> </div> </td> </tr> </table>
+Plataforma web para solicitar, acompanhar e contratar aluguéis de automóveis com análise financeira feita por locadoras e bancos, incluindo crédito associado ao aluguel. O CARent é um sistema de apoio à gestão de aluguéis de automóveis desenvolvido para o Laboratório 02 da disciplina de Desenvolvimento de Interfaces Web (DIW), do curso de Engenharia de Software da PUC Minas. Clientes cadastrados podem criar, modificar, consultar e cancelar pedidos de aluguel, enquanto os agentes (locadoras e bancos) avaliam, modificam e transformam em contrato os pedidos aprovados. O sistema é construído com HTML5, CSS3 e JavaScript, interface em Bootstrap 5 e persistência em uma API REST simulada com JSON Server, consumida via Fetch API.
 
 ---
 
